@@ -1,0 +1,8 @@
+name = UC Berkeley Library CAS LDAP
+description = "Provides a way to limit user accounts by LDAP group using the cas.api."
+core = 6.x
+package = Central Authentication Service
+
+dependencies[] = cas
+dependencies[] = token
+dependencies[] = cas_attributes
